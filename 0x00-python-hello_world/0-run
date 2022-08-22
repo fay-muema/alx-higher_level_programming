@@ -1,2 +1,2 @@
-x = "hello world!"
-print (x)
+#!/bin/bash
+python3 $PYFILE
