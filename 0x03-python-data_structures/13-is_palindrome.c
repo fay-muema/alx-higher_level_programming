@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stddef.h>
 /**
  * reverse - reverses the second half of the list
  * @h_r: head of the second half
@@ -18,7 +19,7 @@ void reverse(listint_t **h_r)
 	{
 		nxt = crr->next;
 		crr->next = prv;
-		prr = crr;
+		prv = crr;
 		crr = nxt;
 
 	}
