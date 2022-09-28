@@ -17,8 +17,8 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-        def to_json(self):
-            """
-            method that returns directory
-            """
-            return self.__dict__.copy()
+    def to_json(self):
+        """
+        method that returns directory
+        """
+        return self.__dict__.copy()
