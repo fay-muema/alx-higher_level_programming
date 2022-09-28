@@ -18,8 +18,8 @@ class Square(Rectangle):
         sef.__size = size
         super().__init__(self.__size, self.__size)
 
-        def area(self):
-            """
-            method that returns string of an area
-            """
-            return super().area()
+    def area(self):
+        """
+        method that returns string of an area
+        """
+        return super().area()
