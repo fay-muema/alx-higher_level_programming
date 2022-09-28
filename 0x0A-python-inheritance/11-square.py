@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-    class myint
+    class Square
 """
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
     """
-    class MyInt that inherits from int
+    class Square that inherits from Rectangle
     """
     def __init__(self, size):
         """
