@@ -27,3 +27,4 @@ class Square(Rectangle):
         """
         method that returns printable string
         """
+        return "[Square] {}/{}".format(self.__size, self.__size)
