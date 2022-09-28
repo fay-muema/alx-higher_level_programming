@@ -36,4 +36,3 @@ class Student:
             return a_list
 
         return obj
-
