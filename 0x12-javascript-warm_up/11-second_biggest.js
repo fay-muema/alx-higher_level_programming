@@ -9,8 +9,8 @@ for (i = 2; i < process.argv.length; i++) {
 }
 
 if (arrayNumbers.length > 1) {
-  biggest = Math.max.applu(null, arrayNumbers);
+  biggest = Math.max.apply(null, arrayNumbers);
   arrayNumbers[i] = -Infinity;
-  biggest = Math.max.applu(null, arrayNumbers);
+  biggest = Math.max.apply(null, arrayNumbers);
 }
 console.log(biggest);
