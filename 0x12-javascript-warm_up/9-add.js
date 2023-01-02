@@ -1,0 +1,4 @@
+#!/usr/bin/node
+function add (a, b) {
+  return process.argv[2] + process.argv[3];
+}
