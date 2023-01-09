@@ -1,6 +1,5 @@
 #!/usr/bin/node
-exports.addMeMaybe = function (number, theFunction)
-{
-	let nb = ++number;
-	theFunction.call(this, nb);
-}
+exports.addMeMaybe = function (number, theFunction) {
+  const nb = ++number;
+  theFunction.call(this, nb);
+};
