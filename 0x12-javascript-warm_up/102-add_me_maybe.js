@@ -2,5 +2,5 @@
 exports.addMeMaybe = function (number, theFunction)
 {
 	let nb = ++number;
-	theFunction.call();
+	theFunction.call(this, nb);
 }
